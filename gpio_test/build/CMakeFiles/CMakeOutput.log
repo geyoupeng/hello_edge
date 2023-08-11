@@ -1,0 +1,258 @@
+The target system is: Generic -  - 
+The host system is: Windows - 10.0.22000 - AMD64
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+csky-elfabiv2-gcc.exe (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) 6.3.0
+Copyright (C) 2016 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/csky-elfabiv2-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/graduate/wms_testpro/gpio_test/build/CMakeFiles/3.25.1/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/csky-elfabiv2-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "D:/graduate/wms_testpro/gpio_test/build/CMakeFiles/3.25.1/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/graduate/wms_testpro/gpio_test/build/CMakeFiles/CMakeScratch/TryCompile-5dw340
+
+Run Build Command(s):D:/winnermicro/wmclics/ninja/ninja.exe cmTC_b7c47 && [1/2] Building C object CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=D:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\csky-elfabiv2-gcc.exe
+Target: csky-elfabiv2
+Configured with: /home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/source//gcc/configure --host=i686-w64-mingw32 --enable-languages=c,c++ --disable-threads --enable-sjlj-exceptions --disable-shared --enable-libssp --target=csky-elfabiv2 --prefix=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install/ --with-headers=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/include --with-lib=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/lib/ --with-cskyabi=abiv2 --with-pkgversion='C-SKY Tools V3.10.21 Minilibc abiv2 B20200407' --disable-tls --enable-threads=posix
+Thread model: posix
+gcc version 6.3.0 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj' '-c'
+ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/cc1.exe -quiet -v -iprefix d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/ D:/winnermicro/wmclics/cmake/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\gyp\AppData\Local\Temp\ccRxgCjo.s
+GNU C11 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include-fixed"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include-fixed
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include
+End of search list.
+GNU C11 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bd64066cba47d78db592b2eef706eb6e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj' '-c'
+ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/as.exe -o CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj C:\Users\gyp\AppData\Local\Temp\ccRxgCjo.s
+COMPILER_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/
+LIBRARY_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj' '-c'
+[2/2] Linking C static library libcmTC_b7c47.a
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include-fixed]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include]
+  end of search list found
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include-fixed] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include-fixed]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/sys-include]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include]
+  implicit include dirs: [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include-fixed;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/sys-include;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(csky-elfabiv2-gcc\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/graduate/wms_testpro/gpio_test/build/CMakeFiles/CMakeScratch/TryCompile-5dw340]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/winnermicro/wmclics/ninja/ninja.exe cmTC_b7c47 && [1/2] Building C object CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\csky-elfabiv2-gcc.exe]
+  ignore line: [Target: csky-elfabiv2]
+  ignore line: [Configured with: /home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/source//gcc/configure --host=i686-w64-mingw32 --enable-languages=c c++ --disable-threads --enable-sjlj-exceptions --disable-shared --enable-libssp --target=csky-elfabiv2 --prefix=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install/ --with-headers=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/include --with-lib=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/lib/ --with-cskyabi=abiv2 --with-pkgversion='C-SKY Tools V3.10.21 Minilibc abiv2 B20200407' --disable-tls --enable-threads=posix]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/cc1.exe -quiet -v -iprefix d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/ D:/winnermicro/wmclics/cmake/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -auxbase-strip CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj -version -o C:\Users\gyp\AppData\Local\Temp\ccRxgCjo.s]
+  ignore line: [GNU C11 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include-fixed]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bd64066cba47d78db592b2eef706eb6e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/as.exe -o CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj C:\Users\gyp\AppData\Local\Temp\ccRxgCjo.s]
+  ignore line: [COMPILER_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/]
+  ignore line: [LIBRARY_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b7c47.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [[2/2] Linking C static library libcmTC_b7c47.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/graduate/wms_testpro/gpio_test/build/CMakeFiles/CMakeScratch/TryCompile-y1nfvu
+
+Run Build Command(s):D:/winnermicro/wmclics/ninja/ninja.exe cmTC_c7c02 && [1/2] Building CXX object CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=D:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\csky-elfabiv2-g++.exe
+Target: csky-elfabiv2
+Configured with: /home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/source//gcc/configure --host=i686-w64-mingw32 --enable-languages=c,c++ --disable-threads --enable-sjlj-exceptions --disable-shared --enable-libssp --target=csky-elfabiv2 --prefix=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install/ --with-headers=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/include --with-lib=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/lib/ --with-cskyabi=abiv2 --with-pkgversion='C-SKY Tools V3.10.21 Minilibc abiv2 B20200407' --disable-tls --enable-threads=posix
+Thread model: posix
+gcc version 6.3.0 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/cc1plus.exe -quiet -v -iprefix d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/ -D_GNU_SOURCE D:/winnermicro/wmclics/cmake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\gyp\AppData\Local\Temp\ccDooWnO.s
+GNU C++14 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/backward"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include-fixed"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include"
+ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/backward
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include-fixed
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include
+ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include
+End of search list.
+GNU C++14 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)
+	compiled by GNU C version 5.3.1 20160211, GMP version 6.1.2, MPFR version 3.1.5, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d57f3605049b831013f5d24cc2a669d6
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/as.exe -o CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\gyp\AppData\Local\Temp\ccDooWnO.s
+COMPILER_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/
+LIBRARY_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/;d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+[2/2] Linking CXX static library libcmTC_c7c02.a
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/backward]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include-fixed]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include]
+    add: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include]
+  end of search list found
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include/c++/6.3.0]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/backward] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include/c++/6.3.0/backward]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/include-fixed] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include-fixed]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/sys-include]
+  collapse include dir [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include] ==> [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include]
+  implicit include dirs: [D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include/c++/6.3.0;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include/c++/6.3.0/backward;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/csky-elfabiv2/6.3.0/include-fixed;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/sys-include;D:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/csky-elfabiv2/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(csky-elfabiv2-gcc\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/graduate/wms_testpro/gpio_test/build/CMakeFiles/CMakeScratch/TryCompile-y1nfvu]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/winnermicro/wmclics/ninja/ninja.exe cmTC_c7c02 && [1/2] Building CXX object CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\csky-elfabiv2-g++.exe]
+  ignore line: [Target: csky-elfabiv2]
+  ignore line: [Configured with: /home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/source//gcc/configure --host=i686-w64-mingw32 --enable-languages=c c++ --disable-threads --enable-sjlj-exceptions --disable-shared --enable-libssp --target=csky-elfabiv2 --prefix=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install/ --with-headers=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/include --with-lib=/home/tools/slave/workspace/tools3_rc_build_w64_elf_v2/install//csky-elfabiv2/lib/ --with-cskyabi=abiv2 --with-pkgversion='C-SKY Tools V3.10.21 Minilibc abiv2 B20200407' --disable-tls --enable-threads=posix]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/cc1plus.exe -quiet -v -iprefix d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/ -D_GNU_SOURCE D:/winnermicro/wmclics/cmake/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -auxbase-strip CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj -version -o C:\Users\gyp\AppData\Local\Temp\ccDooWnO.s]
+  ignore line: [GNU C++14 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/backward"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include"]
+  ignore line: [ignoring duplicate directory "d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/lib/gcc/../../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/csky-elfabiv2]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include/c++/6.3.0/backward]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/include-fixed]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/sys-include]
+  ignore line: [ d:\winnermicro\wmclics\toolchain\csky-elfabiv2-tools\bin\../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (C-SKY Tools V3.10.21 Minilibc abiv2 B20200407) version 6.3.0 (csky-elfabiv2)]
+  ignore line: [	compiled by GNU C version 5.3.1 20160211  GMP version 6.1.2  MPFR version 3.1.5  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d57f3605049b831013f5d24cc2a669d6]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/as.exe -o CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\gyp\AppData\Local\Temp\ccDooWnO.s]
+  ignore line: [COMPILER_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/csky-elfabiv2/6.3.0/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../libexec/gcc/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/bin/]
+  ignore line: [LIBRARY_PATH=d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/]
+  ignore line: [d:/winnermicro/wmclics/toolchain/csky-elfabiv2-tools/bin/../lib/gcc/csky-elfabiv2/6.3.0/../../../../csky-elfabiv2/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c7c02.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [[2/2] Linking CXX static library libcmTC_c7c02.a]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
